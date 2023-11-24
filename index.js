@@ -1,5 +1,5 @@
-function isString(string){
-    return string === 'WDS';
-}
+// index.js
 
-module.exports = isString;
+import * as Components from './components';
+
+export { Components };

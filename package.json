@@ -1,6 +1,6 @@
 {
   "name": "tv-d-string",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tvdivyang/tv-form"
+    "url": "https://github.com/tvdivyang/tv-string"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "babel-core": "^6.26.3"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  }
 }
